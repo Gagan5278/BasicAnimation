@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A299l" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnimationViewController">
+            <connections>
+                <outlet property="fadeLabel" destination="iXq-QK-Jje" id="h4F-Hp-egZ"/>
+                <outlet property="imageView1" destination="sP7-Po-wLa" id="NNV-dG-qks"/>
+                <outlet property="imageView2" destination="RjM-7r-rBx" id="lMC-v0-AYx"/>
+                <outlet property="imageView3" destination="QIA-xz-dwv" id="maB-sS-u1T"/>
+                <outlet property="imageView4" destination="tUG-r0-tcC" id="WDA-au-ipd"/>
+                <outlet property="imageView5" destination="aoC-LS-zC7" id="rqD-di-uXT"/>
+                <outlet property="imageView6" destination="0Xy-bq-oCF" id="BQs-Cj-RhV"/>
+                <outlet property="rotatingImageView" destination="91x-Vf-1Bu" id="l18-T1-JkM"/>
+                <outlet property="shakeTextField" destination="Lxa-4b-Xjf" id="OGM-dp-TSc"/>
+                <outlet property="spinnerView" destination="vUd-Bg-l6v" id="eSh-8N-qj7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tsl-dH-xff">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <view appearanceType="aqua" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-Bg-l6v">
+                    <rect key="frame" x="127" y="253" width="66" height="66"/>
+                    <color key="backgroundColor" red="0.1278933666" green="0.64566591939999995" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <textField hidden="YES" appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="*********" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lxa-4b-Xjf">
+                    <rect key="frame" x="13" y="188" width="294" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="91x-Vf-1Bu">
+                    <rect key="frame" x="127" y="251" width="66" height="66"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="RjM-7r-rBx">
+                    <rect key="frame" x="7" y="188" width="50" height="50"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="tUG-r0-tcC">
+                    <rect key="frame" x="7" y="350" width="50" height="50"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="aoC-LS-zC7">
+                    <rect key="frame" x="7" y="424" width="50" height="50"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Xy-bq-oCF">
+                    <rect key="frame" x="7" y="495" width="50" height="50"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="QIA-xz-dwv">
+                    <rect key="frame" x="7" y="269" width="50" height="50"/>
+                </imageView>
+                <imageView hidden="YES" appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="faceIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="sP7-Po-wLa">
+                    <rect key="frame" x="7" y="95" width="50" height="50"/>
+                </imageView>
+                <label hidden="YES" appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is an example of lable fading with CATransistion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="278" translatesAutoresizingMaskIntoConstraints="NO" id="iXq-QK-Jje">
+                    <rect key="frame" x="29" y="197" width="278" height="64"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="323" y="453"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Ball.png" width="48" height="48"/>
+        <image name="background.png" width="320" height="568"/>
+        <image name="faceIcon.png" width="64" height="64"/>
+    </resources>
+</document>
